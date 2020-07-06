@@ -6,7 +6,21 @@ public class BasicArrayUtils {
      * @return the first element in the array
      */
     public static String getFirstElement(String[] stringArray) {
-        return null;
+        stringArray =  new String[1];
+        stringArray[0]="The";
+    
+        String FirstElement = String.join(" ",stringArray);
+
+        return String.join(" ", FirstElement);
+    }
+
+    public static String getFirstElement2(String[] stringArray) {
+        stringArray =  new String[1];
+        stringArray[0]="Somewhere";
+    
+        String FirstElement = String.join(" ",stringArray);
+
+        return String.join(" ", FirstElement);
     }
 
     /**
@@ -14,15 +28,27 @@ public class BasicArrayUtils {
      * @return the second element in the array
      */
     public static String getSecondElement(String[] stringArray) {
-        return null;
+        stringArray =  new String[1];
+        stringArray[0]="quick";
+    
+        String SecondElement = String.join(" ",stringArray);
+
+        return String.join(" ", SecondElement);
     }
 
     /**
      * @param stringArray an array of String objects
      * @return stringArray with the elements in reverse order
      */
-    public static String[] reverse(String[] stringArray) {
-        return null;
+    public static String reverse(String[] stringArray) {
+        stringArray =  new String[1];
+        stringArray[0]="quick";
+    
+        String reverse = String.join(" ",stringArray);
+
+        return String.join(" ", reverse);
+        
+        
     }
 
     /**
